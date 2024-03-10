@@ -1,0 +1,15 @@
+.logo {
+    max-width: 250px;
+    max-height: 250px;
+}
+.navbar{
+    background: rgb(0, 132, 255);
+    color: white;
+    display: flex;
+    justify-content: right;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

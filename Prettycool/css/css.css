@@ -24,7 +24,7 @@
     max-width: 300px;
     max-height: 300px;
 }
-.navbar{
+.MYnavbar{
     display: flex;
     flex-direction: row;
     /* background-color: rgb(69, 219, 253); */
@@ -32,40 +32,34 @@
     font-size:30px;
     margin: 25px;
 }
-.navbar a{
+.MYnavbar a{
     font-weight: bold;
     text-decoration: none;
-    text-align: center;
     color:black ;
     border-radius:10px ;
     border: 4px solid black;
     padding: 10px;
     margin: 0 auto;
-    background-color: aqua;
-    
+    background-color: aqua;  
+    text-align: center; 
 }
-
 .navbar a:hover{
     color: rgb(255, 0, 0);
     background-color: rgb(0, 174, 255);
 }
 footer{
+    font-size: 25px;
     font-weight: bold;
     text-decoration: none;
     text-align: center;
     color:black ;
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    flex-direction: row;
 }
 footer a{
-    font-weight: bold;
     text-decoration: none;
-    text-align: center;
-    color:blue
-}
-.anything{
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    color:rgb(0, 0, 0);
 }

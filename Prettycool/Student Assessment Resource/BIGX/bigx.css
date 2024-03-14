@@ -1,0 +1,12 @@
+h1{
+    color:rgb(0, 0, 0) ;
+    display: flex;
+    justify-content: center;   
+}
+body{
+    width: 100%;
+}
+
+img:hover{
+    background-color: #666;
+}

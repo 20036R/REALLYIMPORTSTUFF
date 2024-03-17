@@ -97,7 +97,8 @@ footer a{
     padding-top: 10px;
     display: flex;
     flex-direction: row;
-    text-align: center;    
+    text-align: center;
+    vertical-align: center;    
 }
 .MorroghText, .MaggsText, .LatchText, .CooperText, .JohnText, .FoongText{
     padding: 125px 0;
@@ -105,7 +106,7 @@ footer a{
 .groupnumber1, .groupnumber2, .groupnumber3{
     height: 412px;
     width: 100%;
-    border: 10px solid black;
+    /* border: 10px solid black; */
     color: white;
     display: flex;
     flex-direction: row;
@@ -122,4 +123,14 @@ footer a{
     display: flex;
     justify-content: center;
     height: 10%;
+}
+.TeacherTitle{
+    display:flex;
+    justify-content: center;
+}
+.sportthingie{
+    display: flex;
+    flex-direction: row;
+    justify-content: center ;
+    flex-wrap: wrap;
 }

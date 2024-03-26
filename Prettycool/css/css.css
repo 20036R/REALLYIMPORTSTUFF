@@ -151,8 +151,10 @@ footer a{
     flex-direction: row;
 }
 .imgBetter2{
-    width: 45%;
-    height: 85%;
+    /* width: 45%;
+    height: 85%; */
+    /* width: 35%;
+    height: 80.099%; */
     border: solid 5px black;
     border-radius: 5px;
 }

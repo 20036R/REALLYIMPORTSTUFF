@@ -8,7 +8,7 @@
     justify-content: center;
 }
 .Adress, .Contact{
-    color: white;
+    color: rgb(0, 0, 0);
 }
 .lmao{
      display: flex;
@@ -35,11 +35,10 @@
 .MYnavbar{
     display: flex;
     flex-direction: row;
-    /* background-color: rgb(69, 219, 253); */
-    /* margin-left: 500px; */
     font-size:30px;
     margin-top: 25px;
     margin-bottom: 25px;
+    
 }
 .MYnavbar a{
     display: flex;
@@ -63,28 +62,38 @@
     transition: all .2s ease-in-out; 
 }
 .MYnavbar .currentpage { 
-    background-color: blue;
+    background-color: rgb(0, 94, 255);
     color: white;
-} 
-footer{
-    margin-top: 10px;
+}
+.gradient {
+    margin-top: 150px;
     padding-bottom: 10px;
     font-size: 15px;
     text-decoration: none;
     text-align: center;
-    color: white;
+    color: rgb(0, 0, 0);
     display: flex;
     flex-direction: row;
-    background-color: rgb(0, 174, 255);
+    margin-top: 10px;
+}
+
+header{
+    padding-bottom: 10px;
+    background: linear-gradient(rgb(0, 174, 255), rgb(255, 255, 255));
+}
+footer{
+    background: linear-gradient(rgb(255, 255, 255)1%, rgb(0, 174, 255) 99%);
+    padding-top: 15px;
 }
 footer a{
     text-decoration: none;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 .Contact{
+    color: black;
     font-weight: bold;
     font-size: 25px;
     margin:0px;
@@ -151,13 +160,14 @@ footer a{
     flex-direction: row;
 }
 .imgBetter2{
-    /* width: 45%;
-    height: 85%; */
-    /* width: 35%;
-    height: 80.099%; */
+    /* width: 45%; */
+    height: 85%;
+    width: 35%;
+    /* height: 80.099%; */
     border: solid 5px black;
     border-radius: 5px;
 }
+
 .imgBETTER {
     width: 90%;
     height: 90%;

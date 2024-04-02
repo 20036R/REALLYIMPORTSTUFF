@@ -4,9 +4,17 @@ h1{
     justify-content: center;   
 }
 body{
-    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
 }
-
+button{
+    width: auto;
+    height: auto;
+}
+.needscenter{
+    margin-right: auto;
+    margin-left: auto;
+}
 img:hover{
     background-color: #666;
 }

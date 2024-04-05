@@ -12,8 +12,13 @@ button{
     height: auto;
 }
 .needscenter{
-    margin-right: auto;
-    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+img {
+    width: 1000px;
+    height: 1000px;
 }
 img:hover{
     background-color: #666;

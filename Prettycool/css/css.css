@@ -1,8 +1,4 @@
-*{
-    width: 100%;
-    color: black;
-    margin: 0px;
-}
+/* Global */
 .test{
     display: flex;
     justify-content: center;
@@ -37,8 +33,7 @@
     flex-direction: row;
     font-size:30px;
     margin-top: 25px;
-    margin-bottom: 25px;
-    
+    margin-bottom: 25px; 
 }
 .MYnavbar a{
     display: flex;
@@ -76,7 +71,6 @@
     flex-direction: row;
     margin-top: 10px;
 }
-
 header{
     padding-bottom: 10px;
     background: linear-gradient(rgb(0, 174, 255), rgb(255, 255, 255));
@@ -92,23 +86,12 @@ footer a{
     justify-content: center;
     color: rgb(0, 0, 0);
 }
-.Contact{
+*{
+    width: 100%;
     color: black;
-    font-weight: bold;
-    font-size: 25px;
-    margin:0px;
-    margin-bottom: 5px;
+    margin: 0px;
 }
-.extraphone{
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: column;                                                                                                 
-}
-.MOTD {
-    display: flex;
-    align-self: center;
-    width: auto;
-}
+/* Staff CSS */
 .introductionlineforstaff{
     color: black;
     display: flex;
@@ -125,6 +108,10 @@ footer a{
     height: 55%;
     border: 10px solid black;
     border-radius: 10px;
+}
+.TeacherTitle{
+    display:flex;
+    justify-content: center;
 }
 .DTEs, .geos {
     display: flex;
@@ -147,19 +134,17 @@ footer a{
     margin-left: auto;
     margin-right: auto;
 }
+/* Sport CSS  */
 .groupnumber1, .groupnumber2, .groupnumber3{
     height: 412px;
     width: 100%;
-    /* border: 10px solid black; */
     color: white;
     display: flex;
     flex-direction: row;
 }
 .imgBetter2{
-    /* width: 45%; */
     height: 85%;
     width: 35%;
-    /* height: 80.099%; */
     border: solid 5px black;
     border-radius: 5px;
 }
@@ -177,16 +162,13 @@ footer a{
     justify-content: center;
     height: 10%;
 }
-.TeacherTitle{
-    display:flex;
-    justify-content: center;
-}
 .sportthingie{
     display: flex;
     flex-direction: row;
     justify-content: center ;
     flex-wrap: wrap;
 }
+/* Main Page CSS */
 .abouttext, .MOTD2{
     font-size: 20px;
 }
@@ -201,4 +183,20 @@ div#carouselExampleAutoplaying{
     margin-right: auto;
     border: 10px black solid;
     border-radius: 10px;
+}
+
+.Contact{
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+.extraphone{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;                                                                                              
+}
+.MOTD {
+    display: flex;
+    align-self: center;
+    width: auto;
 }
